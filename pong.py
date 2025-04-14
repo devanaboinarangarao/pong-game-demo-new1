@@ -77,4 +77,6 @@ while True:
     pygame.draw.aaline(screen, WHITE, (WIDTH // 2, 0), (WIDTH // 2, HEIGHT))
 
     pygame.display.flip()
-    clock.tick(60)
+    clock.tick(60)  # Frame rate control
+
+# Additional comments added for clarity
